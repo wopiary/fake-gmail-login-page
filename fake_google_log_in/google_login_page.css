@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'GoogleSansCode';
+    src: url('../fonts/GoogleSansCode[wght].ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.background {
+    background-color: #1f1f1f;
+}
+
+
+.login_row {
+    margin-top: 100px;
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-left: 36px;
+    padding: 36px;
+    width: auto;
+
+}
+
+.login_horizontal_horizontal_box {
+    background: #0e0e0e;
+    border-radius: 25px;
+    height: 400px;
+}
+
+.box_contents {
+    padding-left: 30;
+}
+
+.logo {
+    padding-top: 30px;
+    height: 55;
+    width: 55;
+}
+
+
+.login_content_sign_in_message h1 {
+    margin-top: 23;
+    margin-left: 2;
+    color: #ffffff;
+    font-size: 35;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    font-weight: lighter;
+}
+
+.login_content_sign_in_message p {
+
+    margin-left: 3;
+    color: #ffffff;
+    font-size: 16;
+    font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    font-weight: lighter;
+}
+
+.nav_links_pt2 {
+    flex: 1;
+    text-align: right;
+    padding-right: 220;
+
+}
+
+.nav_links_pt2 ul li {
+
+    list-style: none;
+    display: inline-block;
+
+
+}

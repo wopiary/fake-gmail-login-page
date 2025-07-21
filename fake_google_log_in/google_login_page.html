@@ -1,47 +1,55 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>Gmail</title>
     <link rel="stylesheet" href="google_login_page.css">
 </head>
 
 <body class="background">
+
     <section class="login_box">
         <div class="login_row">
             <div class="login_horizontal_horizontal_box">
                 <div class="box_contents">
-                    <img src="google logo.png" class="logo" alt="google logo">
-                    <div class="login_content_sign_in_message">
-                        <h1>
-                            Sign in
-                        </h1>
 
-                        <p>
-                            to continue to Gmail
+                    <img src="google logo.png" class="logo" alt="Google Logo">
 
-
+                    <div class="login_content_sign_in_h1">
+                        <p>Sign in</p>
+                        <span class="continue_text">to continue to Gmail</span>
                     </div>
+
+                    <input class="login_input" type="text" placeholder="Email or phone" />
+
+                    <div class="forgot_email"><a href="#">Forgot email?</a></div>
+
+                    <p class="guest_msg">
+                        Not your computer? Use Guest mode to sign in privately.
+                        <a href="#">Learn more about using Guest mode</a>
+                    </p>
+
+                    <div class="bottom_buttons">
+                        <a class="create_account" href="#">Create account</a>
+                        <button class="next_btn">Next</button>
+                    </div>
+
                 </div>
             </div>
         </div>
     </section>
-    <section class="footer">
-        <nav>
-            <div class="nav_links_pt1">
-                <li><a href="">English (United States)</a></li>
-            </div>
-            <div class="nav_links_pt2">
-                <ul>
 
-                    <li><a href="">Help</a></li>
-                    <li><a href="">Privacy</a></li>
-                    <li><a href="">Terms</a></li>
-                </ul>
-            </div>
-        </nav>
-    </section>
-
-
+    <footer class="footer_row">
+        <div class="footer_left">
+            <p>English (United States)</p>
+        </div>
+        <div class="footer_right">
+            <a href="#">Help</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+        </div>
+    </footer>
 
 </body>
 
